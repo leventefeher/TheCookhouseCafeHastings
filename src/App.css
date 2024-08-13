@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   /* margin: 0 auto; */
   /* padding: 2rem; */
   /* text-align: center; */
+  --primary-clr: #29cc96;
 }
 
 .logo {
@@ -52,6 +53,12 @@
   padding: 0;
 }
 
+body {
+  background-color: #29cc96;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
 .flex-container {
   display: flex;
 }
@@ -76,4 +83,8 @@ a {
 
 a:hover {
   color: #7a7c7c;
+}
+
+h1 {
+  color: #5d7c7c;
 }
