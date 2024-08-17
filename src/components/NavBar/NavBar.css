@@ -2,8 +2,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: aqua;
+  background: #29cc96;
   padding: 30px 50px 30px 50px;
+  border-bottom: 1px solid black;
 }
 
 .NavLinks {
