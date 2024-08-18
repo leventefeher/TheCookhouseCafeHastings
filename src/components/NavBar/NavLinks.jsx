@@ -1,18 +1,18 @@
 import "./NavBar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const NavLinks = ({ isClicked, closeMenu }) => {
   return (
     <nav className="NavLinks">
       <ul>
         <li onClick={() => isClicked && closeMenu()}>
-          <Link to="/">Home</Link>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li onClick={() => isClicked && closeMenu()}>
-          <Link to="/menu">Menu</Link>
+          <NavLink to="/menu">Menu</NavLink>
         </li>
         <li onClick={() => isClicked && closeMenu()}>
-          <Link to="/contact">Contact</Link>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
     </nav>
