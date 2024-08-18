@@ -1,3 +1,5 @@
+@import url("/src/fonts/fonts.css");
+
 nav {
   display: flex;
   align-items: center;
@@ -5,24 +7,40 @@ nav {
   background-image: url("images/background.png");
   padding: 30px 50px 30px 50px;
   border-bottom: 1px solid black;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #5d7c7c;
+}
+
+#THE {
+  position: relative;
+  color: #5d7c7c;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  font-family: "brandyregular";
+}
+
+#COOKHOUSE {
+  position: relative;
+  color: #5d7c7c;
+  font-size: 64px;
+  text-align: center;
+  display: block;
+  font-family: "mirischregular";
+  line-height: 1;
+}
+
+#CAFE {
+  color: #5d7c7c;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  font-family: "brandyregular";
 }
 
 .NavLinks {
   height: 15vh;
 }
-
-/* .NavLinks ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  position: absolute;
-  border-top: 3px solid orange;
-  top: 15vh;
-  right: 0;
-  height: 50vh;
-  width: 100%;
-  background: blue;
-} */
 
 nav ul {
   display: flex;
@@ -33,11 +51,10 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   font-weight: bold;
-  color: black;
 }
 
 nav ul li a:hover {
-  color: #ffff;
+  color: black;
   transition: 0.3s;
 }
 

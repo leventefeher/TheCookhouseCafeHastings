@@ -67,6 +67,28 @@ button:focus-visible {
   }
 } */
 
+@font-face {
+  font-family: "brandyregular";
+  src: url("fonts/brandy-webfont.eot");
+  src: url("fonts/brandy-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/brandy-webfont.woff") format("woff"),
+    url("fonts/brandy-webfont.ttf") format("truetype"),
+    url("fonts/brandy-webfont.svg#brandyregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "mirischregular";
+  src: url("fonts/mirisch-webfont.eot");
+  src: url("fonts/mirisch-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/mirisch-webfont.woff") format("woff"),
+    url("fonts/mirisch-webfont.ttf") format("truetype"),
+    url("fonts/mirisch-webfont.svg#mirischregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
