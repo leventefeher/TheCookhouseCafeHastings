@@ -2,7 +2,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: #29cc96;
+  background-image: url("images/background.png");
   padding: 30px 50px 30px 50px;
   border-bottom: 1px solid black;
 }

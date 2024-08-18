@@ -54,7 +54,7 @@
 }
 
 body {
-  background-color: #29cc96;
+  background-image: url("images/background.png");
   font-size: 1.25rem;
   line-height: 1.5;
 }
