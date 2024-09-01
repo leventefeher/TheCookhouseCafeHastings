@@ -3,6 +3,7 @@ import "./NavBar.css";
 import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
 import { useState } from "react";
+import { Logo } from "../Logo";
 
 export const MobileNavigation = () => {
   const [click, setClick] = useState(false);
@@ -32,9 +33,9 @@ export const MobileNavigation = () => {
 
   return (
     <nav className="MobileNavigation">
-      <h2 className="logo">Logo</h2>
-      {click ? Close : Hamburger}
+      <Logo />
       {click && <NavLinks isClicked={true} closeMenu={closeMenu} />}
+      {click ? Close : Hamburger}
     </nav>
   );
 };
