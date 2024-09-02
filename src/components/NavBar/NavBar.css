@@ -11,10 +11,10 @@ nav {
   color: #5d7c7c;
 }
 
-.DesktopNavigation,
+/* .DesktopNavigation,
 .MobileNavigation {
   border-bottom: 1px solid black;
-}
+} */
 
 .logo {
   display: flex;
