@@ -1,7 +1,7 @@
 import "./NavBar.css";
 import { NavLink } from "react-router-dom";
 
-export const NavLinks = () => {
+export const MenuNavigation = () => {
   return (
     <nav className="NavLinks">
       <ul>
