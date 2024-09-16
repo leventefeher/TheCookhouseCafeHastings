@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 // import { Nav } from "./Nav";
 import { Home } from "./pages/Home";
@@ -14,11 +14,6 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/*" element={<Home />} />
-        {/* <Route path="/menu" element={<Menu />} /> */}
-        {/* <Route path="/menu/*">
-          <Route index element={<Menu />}></Route>
-          <Route path="foods/*" element={<Menu />}></Route>
-        </Route> */}
         <Route path="menu/*" element={<Menu />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
