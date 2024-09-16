@@ -10,23 +10,23 @@ export const Menu = () => {
   console.log(pathname);
 
   return (
-    <content>
+    <div>
       <Tabs selectedKey={pathname}>
         <TabList aria-label="Tabs">
-          <Tab id="/menu">
-            <NavLink to="/menu">Drinks</NavLink>
+          <Tab id="/menu/drinks">
+            <NavLink to="/menu/drinks">Drinks</NavLink>
           </Tab>
-          <Tab id="/foods">
+          <Tab id="/menu/foods">
             <NavLink to="/menu/foods">Foods</NavLink>
           </Tab>
         </TabList>
         <TabPanel id={pathname}>
           <Routes>
-            <Route path="/" element={<Drinks />} />
+            <Route path="/drinks" element={<Drinks />} />
             <Route path="/foods" element={<Foods />} />
           </Routes>
         </TabPanel>
       </Tabs>
-    </content>
+    </div>
   );
 };
