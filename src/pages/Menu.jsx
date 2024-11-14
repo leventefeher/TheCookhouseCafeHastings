@@ -20,12 +20,16 @@ export const Menu = () => {
             <NavLink to="/menu/foods">Foods</NavLink>
           </Tab>
         </TabList>
-        <TabPanel id={pathname}>
-          <Routes>
-            <Route path="/drinks" element={<Drinks />} />
-            <Route path="/foods" element={<Foods />} />
-          </Routes>
-        </TabPanel>
+        <div className="menuContainer">
+          <article className="menuContent">
+            <TabPanel id={pathname}>
+              <Routes>
+                <Route path="/drinks" element={<Drinks />} />
+                <Route path="/foods" element={<Foods />} />
+              </Routes>
+            </TabPanel>
+          </article>
+        </div>
       </Tabs>
     </div>
   );
