@@ -7,7 +7,7 @@ import { Foods } from "./Foods";
 
 export const Menu = () => {
   let { pathname } = useLocation();
-  console.log(pathname);
+
 
   return (
     <div>
