@@ -46,8 +46,7 @@ body {
 }
 
 .wrapper {
-  /* max-width: 1440px; */
-  max-width: 1024px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -66,8 +65,6 @@ li {
   font-family: "Oswald", sans-serif;
 }
 
-
-
 a {
   text-decoration: none;
   color: #5d7c7c;
@@ -84,6 +81,35 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.center{
+  justify-content: center;
+}
+
+.left{
+  align-items: left;
+}
+
+
+.row {
+  float: left;
+
+  margin: 0px 10px 0px 10px;
+}
+
+.right {
+  margin-top: -30px;
+}
+
+.header h1{
+  margin-left: 10px;
 }
 
 .menuContent {
@@ -104,4 +130,9 @@ span  {
   color: #000000;
   font-family: "Times";
 
+}
+
+h1{
+  text-align: left;
+  align-items: left;
 }
